@@ -2317,9 +2317,12 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image img {
+		.image img, .image video {
 			border-radius: 4px;
 			display: block;
+			width: 100%; /* Ensures images and videos fill the container */
+			height: auto;
+			object-fit: cover; /* Ensures the video fits well */
 		}
 
 		.image.left, .image.right {
