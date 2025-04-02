@@ -3330,3 +3330,11 @@ input, select, textarea {
 			}
 
 		}
+
+.video-container {
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	height: 60vh; /* Optional: Adjusts height to fill the screen */
+	margin-bottom: 30px;
+}
