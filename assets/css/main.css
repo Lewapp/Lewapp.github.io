@@ -3367,7 +3367,7 @@ input, select, textarea {
 	}
 	
 	@media (max-width: 768px) {
-		.main-container {
+		.project-container {
 			flex-direction: column; 
 		}
 
