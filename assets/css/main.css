@@ -3378,14 +3378,14 @@ input, select, textarea {
 			}
 	}
 
-.dropdown {
+.video-dropdown {
 	margin-bottom: 20px;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-	.dropdown summary {
+	.video-dropdown summary {
 		cursor: pointer;
 		font-size: 16px;
 		font-weight: bold;
@@ -3397,16 +3397,40 @@ input, select, textarea {
 		transition: background-color 0.2s ease;
 	}
 
-		.dropdown summary:hover {
+		.video-dropdown summary:hover {
 			background-color: #666;
 		}
 
-	.dropdown video {
+	.video-dropdown video {
 		width: 100%;
 		max-width: 100%;
 		margin-top: 10px;
 		border-radius: 8px;
 		display: block;
 	}
+
+.text-dropdown {
+	margin-bottom: 20px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	.text-dropdown summary {
+		cursor: pointer;
+		font-size: 16px;
+		font-weight: bold;
+		background-color: #8a7f01;
+		color: white;
+		padding: 10px 20px;
+		border-radius: 6px;
+		user-select: none;
+		transition: background-color 0.2s ease;
+	}
+
+		.text-dropdown summary:hover {
+			background-color: #9b9443;
+		}
+
 
 	
