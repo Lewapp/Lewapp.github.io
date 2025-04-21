@@ -3183,6 +3183,14 @@ input, select, textarea {
 			margin-bottom: 15px;
 		}
 
+		@media (max-width: 768px) {
+
+			.mainInfo p {
+				width: 100%;
+			}
+		}
+
+
 /* Footer */
 
 	#footer {
@@ -3427,12 +3435,24 @@ input, select, textarea {
 		display: block;
 	}
 
+	@media (max-width: 768px) {
+		.video-dropdown {
+			width: 100%;
+		}
+	}
+
 .text-dropdown {
 	margin-bottom: 20px;
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+	@media (max-width: 768px) {
+		.text-dropdown {
+			width: 100%;
+		}
+	}
 
 	.text-dropdown summary {
 		cursor: pointer;
@@ -3450,29 +3470,29 @@ input, select, textarea {
 			background-color: #9b9443;
 		}
 
-.project-info {
-	display: flex;
-	flex-direction: column;
-	gap: 12px;
-	margin-top: 20px;
-	text-align: left;
-}
-
-.info-item {
-	display: flex;
-	align-items: center;
-	gap: 10px;
-	color: #fff;
-	background-color: #555;
-	padding: 10px 14px;
-	border-radius: 6px;
-	font-size: 16px;
-}
-
-	.info-item i {
-		font-size: 18px;
-		color: #e0e0e0;
+	.project-info {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		margin-top: 20px;
+		text-align: left;
 	}
+
+	.info-item {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		color: #fff;
+		background-color: #555;
+		padding: 10px 14px;
+		border-radius: 6px;
+		font-size: 16px;
+	}
+
+		.info-item i {
+			font-size: 18px;
+			color: #e0e0e0;
+		}
 
 
 	
