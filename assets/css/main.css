@@ -3165,6 +3165,24 @@ input, select, textarea {
 
 		}
 
+	.mainInfo {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+		.mainInfo h2 {
+			margin-top: 60px;
+			margin-bottom: 5px;
+		}
+
+		.mainInfo p {
+			width: 70%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 15px;
+		}
+
 /* Footer */
 
 	#footer {
@@ -3335,7 +3353,7 @@ input, select, textarea {
 	position: relative;
 	height: 0;
 	width: 100%;
-	max-width: 1120px;
+	max-width: 1400px;
 	padding-top: 56.25%;
 	margin: 0 auto;
 }
@@ -3352,15 +3370,15 @@ input, select, textarea {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
-	max-width: 1120px;
+	max-width: 1400px;
 	margin: 0 auto;
 }
 
 	.left-container, .right-container {
 		width: 48%;
 		margin-top: 20px;
-		margin-bottom: 40px;
-		padding: 20px;
+		margin-bottom: 5px;
+		padding: 10px;
 		border-radius: 8px;
 		background-color: #6a6a6a;
 		text-align: center;
@@ -3379,8 +3397,8 @@ input, select, textarea {
 	}
 
 .video-dropdown {
-	margin-bottom: 20px;
-	width: 100%;
+	margin-bottom: 5px;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -3411,7 +3429,7 @@ input, select, textarea {
 
 .text-dropdown {
 	margin-bottom: 20px;
-	width: 100%;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 }
