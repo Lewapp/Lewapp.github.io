@@ -26,6 +26,18 @@
 			}, 100);
 		});
 
+	// Scroll animation for .mainInfo elements
+		$window.on('scroll', function () {
+			$('.mainInfo').each(function () {
+				var elementTop = $(this).offset().top;
+				var windowBottom = $window.scrollTop() + $window.height();
+
+				if (elementTop < windowBottom - 50) {
+					$(this).addClass('visible');
+				}
+			});
+		});
+
 	// Touch?
 		if (browser.mobile)
 			$body.addClass('is-touch');
