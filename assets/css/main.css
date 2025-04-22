@@ -3412,12 +3412,13 @@ input, select, textarea {
 }
 
 	.video-dropdown summary {
+		text-align: center;
 		cursor: pointer;
 		font-size: 16px;
 		font-weight: bold;
 		background-color: #444;
 		color: white;
-		padding: 10px 20px;
+		padding: 10px 20px 10px 20px;
 		border-radius: 6px;
 		user-select: none;
 		transition: background-color 0.2s ease;
@@ -3433,6 +3434,7 @@ input, select, textarea {
 		margin-top: 10px;
 		border-radius: 8px;
 		display: block;
+		border: 2px solid #ccc;
 	}
 
 	@media (max-width: 768px) {
