@@ -3399,18 +3399,20 @@ input, select, textarea {
 		background-color: #6a6a6a;
 		text-align: center;
 	}
-	
+
 	@media (max-width: 768px) {
 		.project-container {
-			flex-direction: column; 
+			flex-direction: column;
 		}
 
-			.left-container, .right-container {
-				width: 100%;
-				margin-bottom: 20px;
-				border-radius: 8px;
+		.left-container, .right-container {
+			width: 100%;
+		}
+
+			.left-container, .right-container p {
+				margin: 0%;
 			}
-	}
+}
 
 .video-dropdown {
 	margin-bottom: 5px;
@@ -3518,7 +3520,7 @@ input, select, textarea {
 	display: flex;
 	align-items: center;
 	justify-content: center; 
-	margin: 5px 20px 0px 20px;
+	margin: 20px 2% 0px 2%;
 	color: #fff;
 	background-color: #b22222; 
 	padding: 10px 14px;
@@ -3529,6 +3531,15 @@ input, select, textarea {
 	transition: background-color 0.2s ease;
 }
 
+	@media (max-width: 768px) {
+		.download-box {
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 20px;
+		}
+	}
+
 	.download-box:hover {
 		background-color: #d32f2f;
 		cursor: pointer;
@@ -3537,6 +3548,7 @@ input, select, textarea {
 	.download-box i {
 		font-size: 18px;
 	}
+
 
 
 	
