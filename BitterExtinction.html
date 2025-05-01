@@ -22,7 +22,7 @@
 
 					<!-- Logo -->
 					<a href="index.html" class="logo">
-						<span class="symbol"><img src="images/Portrait.png" alt="" /></span><span class="title">Lewis J Mitchell</span>
+						<span class="symbol"><img src="images/Portrait_B&W.png" alt="" /></span><span class="title">Lewis J Mitchell</span>
 					</a>
 
 					<!-- Nav -->
@@ -102,7 +102,7 @@
 					<div class="mainInfo">
 						<h2>Shop System</h2>
 						<p>
-							About System...
+							I developed the core functionality of the shop system, ensuring it was modular, intuitive, and scalable for future content. The shop served as the player's hub for purchasing towers, traps, and weapons essential for surviving each level.
 						</p>
 
 						<details class="video-dropdown">
@@ -129,7 +129,16 @@
 						<details class="text-dropdown">
 							<summary>Show Extra Details ▼</summary>
 							<p>
-								Extra Details...
+								The shop system underwent several iterations during development, with a focus on making it flexible and easy to expand.
+								I implemented a modular structure that allowed new items to be added quickly and efficiently which was ideal for supporting ongoing balancing or content additions.
+							</p>
+							<p>
+								My responsibilities included scripting the key interactions of the shop, such as purchasing, selecting, and selling items.
+								I also developed the page system, which separated towers, traps, and weapons into clear categories, allowing players to navigate the shop with ease.
+							</p>
+							<p>
+								In addition to the functionality, I contributed to the visual design by creating UI images for the weapons and the tar trap. 
+								I worked collaboratively with a teammate to refine the final look and layout of the shop UI, refining the colour scheme and style to fit the game. 
 							</p>
 						</details>
 					</div>
@@ -137,7 +146,8 @@
 					<div class="mainInfo">
 						<h2>Towers</h2>
 						<p>
-							About System...
+							I was responsible for the development of the towers in the game, handling both player interactions and turret behaviour. 
+							This included enemy targeting, firing logic, and integration with animations and visual effects to ensure a polished gameplay experience.
 						</p>
 
 						<details class="video-dropdown">
@@ -215,7 +225,19 @@
 						<details class="text-dropdown">
 							<summary>Show Extra Details ▼</summary>
 							<p>
-								Extra Details...
+								Each turret required unique functionality and interaction systems. I collaborated closely with our animator to ensure the technical implementation aligned with the visual design.
+								In addition to implementing their behaviours, I also developed the aiming systems and stat-driven functionality.
+								Each tower’s attributes such as range, fire rate, charge time, health, heat, damage, cost, and fuel were made functional and tunable. This provided the designers a way to balance towers as well as providing gameplay variety.
+							</p>
+							<p>
+								Heater Tower – Provided thermal support to nearby turrets, enabling them to operate effectively in the game’s cold environment. <br>
+								Light Tower – A basic shooting tower with standard attack behaviour. <br>
+								Gatling Tower – Delivered rapid fire attacks for high sustained damage. <br>
+								Tesla Tower – Fired electrical arc capable of hitting multiple enemies at once. <br>
+								Flame Tower – Utilised fire VFX created by another team member. This tower emitted a stream of flame that damaged multiple enemies in a line. <br>
+								Artillery Tower – Required the use of projectile motion maths to accurately arc shots toward enemy positions. <br>
+								Piston Tower – A close-range turret that delivered powerful punches to nearby enemies. <br>
+								Railgun Tower – Charged up before firing an explosive, powerful, high-penetration round for massive damage.
 							</p>
 						</details>
 					</div>
@@ -223,7 +245,7 @@
 					<div class="mainInfo">
 						<h2>Traps</h2>
 						<p>
-							About System...
+							I developed the trap systems for the game, handling their placement mechanics, triggering logic, effects, and stat-based behaviour to support both gameplay balance and player strategy.
 						</p>
 
 						<details class="video-dropdown">
@@ -263,7 +285,13 @@
 						<details class="text-dropdown">
 							<summary>Show Extra Details ▼</summary>
 							<p>
-								Extra Details...
+								I implemented the core functionalities for traps, including how players placed and interacted with them, how and when traps were triggered, and the resulting effects. 
+								This gave players a cheap strategic tool to slow down or damage enemies as part of their tower defence strategy. 
+							</p>
+							<p>
+								I developed and integrated VFX for the Tar and Electricity effects, which were used in the Tar Mine and EMP Mine.
+								I Implemented rotation functionality for Spike Traps, allowing players to orient them for optimal placement. The spike trap began as a rotatable wall before evolving into its final design.
+								Also I had created a stat-driven system using Unity's ScriptableObject architecture for traps, enabling designers to balance trap attributes such as damage, trigger radius and cost and description directly.
 							</p>
 						</details>
 					</div>
@@ -271,7 +299,8 @@
 					<div class="mainInfo">
 						<h2>Weapons</h2>
 						<p>
-							About System...
+							I was responsible for developing the core functionality of the weapons in the game, implementing a stat-driven system to manage key attributes such as
+							damage, fire rate, bullets per shot, magazine size, accuracy, bullet speed, and cost.
 						</p>
 
 						<details class="video-dropdown">
@@ -323,6 +352,13 @@
 						</details>
 
 						<details class="video-dropdown">
+							<summary>Show Video "Flame Thrower" ▼</summary>
+							<video autoplay loop muted playsinline>
+								<source src="videos/BitterExtinction/FlameThrower1080.mp4" type="video/mp4">
+							</video>
+						</details>
+
+						<details class="video-dropdown">
 							<summary>Show Video "Shotgun" ▼</summary>
 							<video autoplay loop muted playsinline>
 								<source src="videos/BitterExtinction/Shotgun1080.mp4" type="video/mp4">
@@ -332,7 +368,9 @@
 						<details class="text-dropdown">
 							<summary>Show Extra Details ▼</summary>
 							<p>
-								Extra Details...
+								I worked on the Revolver, Tar Gun, Tesla Gun, Sniper Rifle, Machine Gun, Rocket Launcher, and Shotgun with each offering a unique experience.
+								I integrated visual effects to support these weapons, including custom tar and electricity VFX that I created for the Tar and Tesla guns, and incorporated fire VFX provided by another teammate for the Flamethrower.
+								In addition, I developed the UI icons for each weapon.
 							</p>
 						</details>
 					</div>
@@ -340,7 +378,8 @@
 					<div class="mainInfo">
 						<h2>Upgrade System</h2>
 						<p>
-							About System...
+							I developed the upgrade system for turrets, enabling players to enhance their towers using ore. 
+							Upon selecting a turret, a UI panel appears, displaying the current tower stats and providing an upgrade button.
 						</p>
 
 						<details class="video-dropdown">
@@ -353,15 +392,18 @@
 						<details class="text-dropdown">
 							<summary>Show Extra Details ▼</summary>
 							<p>
-								Extra Details...
+								Each upgrade increased key stats such as damage, fire rate, and range.
+								I also implemented functionality for visual evolution. The Gatling gun featured model swaps every 5 levels to visually reflect their upgrades. 
+								Although time constraints limited this feature to select towers, I ensured the system supported it modularly.
 							</p>
 						</details>
 					</div>
 
 					<div class="mainInfo">
-						<h2>Grid Improvements</h2>
+						<h2>Grid Additions</h2>
 						<p>
-							About System...
+							I expanded upon a teammate’s grid system by implementing a visual representation that enhanced player interaction and clarity during placement.
+							Each functional grid slot was displayed as a green square, helping players easily identify valid build locations.
 						</p>
 
 						<details class="video-dropdown">
@@ -378,10 +420,18 @@
 							</video>
 						</details>
 
+						<details class="video-dropdown">
+							<summary>Show Video "Grid Visual Prototype" ▼</summary>
+							<video autoplay loop muted playsinline>
+								<source src="videos/BitterExtinction/GridVisualPrototype1080.mp4" type="video/mp4">
+							</video>
+						</details>
+
 						<details class="text-dropdown">
 							<summary>Show Extra Details ▼</summary>
 							<p>
-								Extra Details...
+								To improve user feedback, I added colour logic where available slots appeared green, while occupied slots turned red. I also ensured that environmental obstructions would remove the slot. This created blank spaces within the grid which represented invalid locations.
+								I also implemented the ability for players to move towers after initial placement, adding flexibility to tower positioning and overall strategy.
 							</p>
 						</details>
 					</div>
@@ -390,7 +440,7 @@
 					<div class="mainInfo">
 						<h2>Scrapped Radar Idea</h2>
 						<p>
-							About System...
+							I developed a radar system intended to provide players with a mini UI element showing the location of nearby enemies, represented by red dots relative to the player’s position.
 						</p>
 
 						<details class="video-dropdown">
@@ -403,7 +453,11 @@
 						<details class="text-dropdown">
 							<summary>Show Extra Details ▼</summary>
 							<p>
-								Extra Details...
+								The initial concept began as a compass system that pointed toward the highest enemy concentrations. In a later iteration, it evolved into a full radar, which gave a clearer overview of enemy locations and felt more functionally useful.
+							</p>
+							<p>				
+								However, due to performance concerns and the time investment required for optimization, the feature was ultimately cut from the final build. The system's benefits didn’t justify its resource cost within the project's scope.
+								Although the radar never made it to release, I’m still proud of the work done and view it as a valuable learning experience in both gameplay design and project prioritization.
 							</p>
 						</details>
 					</div>
