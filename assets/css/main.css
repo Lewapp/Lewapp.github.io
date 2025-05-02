@@ -2948,11 +2948,20 @@ input, select, textarea {
 							opacity: 0;
 						}
 
-		@media screen and (max-width: 736px) {
+		@media (max-width: 736px) {
 
 			#header {
 				padding: 4em 0 0.1em 0 ;
 			}
+
+				#header .logo {
+					text-align: center;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					margin: 0 auto 2.5em auto;
+				}
 
 				#header nav {
 					right: 0.5em;
@@ -3400,18 +3409,18 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	@media (max-width: 768px) {
-		.project-container {
-			flex-direction: column;
-		}
+@media screen and (max-width: 736px) {
+	.project-container {
+		flex-direction: column;
+	}
 
-		.left-container, .right-container {
-			width: 100%;
-		}
+	.left-container, .right-container {
+		width: 100%;
+	}
 
-			.left-container, .right-container p {
-				margin: 0%;
-			}
+		.left-container, .right-container p {
+			margin: 0%;
+		}
 }
 
 .video-dropdown {
@@ -3447,7 +3456,7 @@ input, select, textarea {
 		border: 2px solid #ccc;
 	}
 
-	@media (max-width: 768px) {
+	@media screen and (max-width: 736px) {
 		.video-dropdown {
 			width: 100%;
 		}
@@ -3460,7 +3469,7 @@ input, select, textarea {
 	margin-right: auto;
 }
 
-	@media (max-width: 768px) {
+	@media screen and (max-width: 768px) {
 		.text-dropdown {
 			width: 100%;
 		}
@@ -3531,9 +3540,10 @@ input, select, textarea {
 	transition: background-color 0.2s ease;
 }
 
-	@media (max-width: 768px) {
+	@media screen and (max-width: 736px) {
 		.download-box {
-			width: 50%;
+			width: 70%;
+			padding: 0.4em 0.5em;
 			margin-left: auto;
 			margin-right: auto;
 			margin-bottom: 20px;
@@ -3549,6 +3559,12 @@ input, select, textarea {
 		font-size: 18px;
 	}
 
+@media screen and (max-width: 736px) {
 
+	.title {
+		padding-top: 1em;
+		text-align: center;
+	}
+}
 
 	
