@@ -103,7 +103,7 @@
 						<div class="mainInfo">
 							<h2>Enemies</h2>
 							<p>
-								About System...
+								I was responsible for developing the enemy AI for the game, collaborating closely with one of our artists to bring their enemy designs to life through functional gameplay.
 							</p>
 
 							<details class="video-dropdown">
@@ -144,7 +144,17 @@
 							<details class="text-dropdown">
 								<summary>Show Extra Details ▼</summary>
 								<p>
-									Extra Details...
+									I implemented several unique enemies, including the Urchin, our basic melee enemy that approaches and stabs the player and the Explosive Urchin, which initiates a countdown when in proximity,
+									ultimately detonating for high damage and a potential stun effect. 	
+								</p>
+								<p>
+									Additionally, I prototyped a retreat mechanic for the Urchin, which allowed it to briefly attack the player before retreating to cover.
+									Although this feature didn’t make it into the final build, it provided valuable experience in AI behaviour design and iterative testing.
+								</p>
+								<p>
+									I also developed the Wormboy enemies and their variants. They were fast, lunging enemies that could apply a bleed effect on impact.
+									The Speed Worm variant was designed to be tough to outrun but had low health, while the Standard Worm featured balanced stats.
+									Another key enemy I worked on was the Hattertron, a large, high damage, high health enemy that served as a more formidable encounter.
 								</p>
 							</details>
 						</div>
@@ -152,9 +162,9 @@
 						<div class="mainInfo">
 							<h2>Status Effects</h2>
 							<p>
-								About System...
-							</p>
-
+								I worked on the two main status effects featured in the game: bleed and stun. The bleed effect applied damage at regular intervals until its timer expired, 
+								while the stun effect temporarily immobilised the affected character, preventing movement and attacks.
+							</p>		
 
 							<details class="video-dropdown">
 								<summary>Show Video "Player Bleed" ▼</summary>
@@ -182,6 +192,10 @@
 							<details class="video-dropdown">
 								<summary>Show Video "Enemy Knockback" ▼</summary>
 								<video autoplay loop muted playsinline>
+									<source src="videos/Conjoined/EnemyKnockback1080.mp4" type="video/mp4">
+								</video>
+
+								<video autoplay loop muted playsinline>
 									<source src="videos/Conjoined/DevelopingEnemyKnock1080.mp4" type="video/mp4">
 								</video>
 							</details>
@@ -196,7 +210,13 @@
 							<details class="text-dropdown">
 								<summary>Show Extra Details ▼</summary>
 								<p>
-									Extra Details...
+									I created the visual icons for both effects, which appeared on screen when the player was bleeding or stunned and the core functionality to allow both enemies and the player to experience and respond to these effects during gameplay.
+								</p>
+								<p>
+									The bleed effect was linked to the player’s scissor weapon as well as the Wormboy enemies. The stun effect was connected to the player’s bat weapon and the Explosive Urchin.
+								</p>
+								<p>
+									In addition, one of our programmers had created a spin attack for the player. To complement this, I implemented a knockback effect that launched enemies backwards and temporarily stunned them on impact.
 								</p>
 							</details>
 						</div>
@@ -204,7 +224,8 @@
 						<div class="mainInfo">
 							<h2>Respawn System</h2>
 							<p>
-								About System...
+								The respawn system was designed to save the player’s progress through the use of campfire. Upon approaching a campfire, it would become the player’s new respawn point. 
+								If the player died, they would reappear at the last campfire.
 							</p>
 
 							<details class="video-dropdown">
@@ -212,12 +233,15 @@
 								<video autoplay loop muted playsinline>
 									<source src="videos/Conjoined/UrchinStreetRespawn1080.mp4" type="video/mp4">
 								</video>
+								<video autoplay loop muted playsinline>
+									<source src="videos/Conjoined/LairRespawn1080.mp4" type="video/mp4">
+								</video>
 							</details>
 
 							<details class="text-dropdown">
 								<summary>Show Extra Details ▼</summary>
 								<p>
-									Extra Details...
+									To achieve this respawn system, I implemented triggers to save the most recent campfire, and added logic to ensure the player would reliably respawn at that saved location.
 								</p>
 							</details>
 						</div>
@@ -225,7 +249,7 @@
 						<div class="mainInfo">
 							<h2>Location Name System</h2>
 							<p>
-								About System...
+								I worked on the location name system which allowed us to split the level into named sections by displaying the name of the area at the top middle of the screen through UI text.
 							</p>
 
 							<details class="video-dropdown">
@@ -238,7 +262,9 @@
 							<details class="text-dropdown">
 								<summary>Show Extra Details ▼</summary>
 								<p>
-									Extra Details...
+									I developed the system using trigger volumes to define different areas of the level. 
+									These triggers were part of a prefab that held the name of the location. When the player entered one of these areas, 
+									the name would display at the top of the screen for a set duration before hiding.
 								</p>
 							</details>
 						</div>
