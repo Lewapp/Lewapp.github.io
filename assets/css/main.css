@@ -3567,5 +3567,56 @@ input, select, textarea {
 	}
 }
 
+.sectionBox {
+	background-color: #1e1e2f;
+	color: #ffffff;
+	padding: 1.5rem;
+	border-radius: 12px;
+	margin-bottom: 2rem; 
+	transition: transform 0.2s ease;
+}
 
+	.sectionBox:hover {
+		transform: translateY(-3px);
+	}
+
+	.sectionBox h2 {
+		margin-top: 0;
+		color: #ffd700;
+	}
+
+	.sectionBox h3 {
+		color: #87cefa;
+		margin-bottom: 0.5rem;
+	}
+
+.subBox {
+	background-color: rgba(255, 255, 255, 0.05);
+	border-left: 4px solid #ffd700;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	margin-top: 1rem;
+	border-radius: 8px;
+}
+
+.flexRow {
+	display: flex;
+	flex-wrap: wrap; 
+	gap: 2rem; 
+	margin-bottom: 2rem; 
+}
+
+	.flexRow .sectionBox {
+		flex: 1 1 48%; 
+		min-width: 300px; 
+		margin-bottom: 0;
+	}
+
+@media (max-width: 700px) {
+	.flexRow .sectionBox {
+		flex: 1 1 100%;
+	}
+}
 	
